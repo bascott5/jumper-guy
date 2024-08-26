@@ -1,0 +1,42 @@
+img {
+    margin: 0;
+    z-index: -5;
+    position: absolute;
+}
+
+.platform {
+    top: 800px;
+}
+
+.platform2 {
+    top: 200px;
+}
+
+@media (max-width: 700px) {
+  .platform, .platform2 {
+      width: 125px;
+      height: 25px;
+  }
+
+  .platform {
+      width: 150px;
+      height: 40px;
+      top: 500px;
+  }
+
+  
+}
+
+@media (max-width: 450px) {
+    .platform2 {
+        width: 120px;
+        height: 40px;
+        top: 200px;
+    }
+
+  .platform {
+      width: 120px;
+      height: 40px;
+      top: 700px;
+  }
+}

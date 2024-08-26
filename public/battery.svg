@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="Layer_1"
+   width="93.14"
+   height="76.92"
+   viewBox="0 0 93.14 76.92"
+   version="1.1"
+   sodipodi:docname="battery.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="3.7607943"
+     inkscape:cx="17.549484"
+     inkscape:cy="45.070266"
+     inkscape:window-width="1920"
+     inkscape:window-height="1008"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Layer_1" />
+  <defs
+     id="defs1">
+    <style
+       id="style1">.cls-1{font-size:17.73px;}.cls-1,.cls-2{fill:#000;font-family:MyriadPro-Regular, 'Myriad Pro';}.cls-3{fill:#fd000d;}.cls-3,.cls-4{fill-rule:evenodd;stroke-width:0px;}.cls-5{fill:#ffaa4d;}.cls-5,.cls-6,.cls-7{stroke:#000;stroke-miterlimit:10;stroke-width:.25px;}.cls-2{font-size:25.32px;}.cls-6{fill:#999;}.cls-7{fill:#e6e6e6;}.cls-4{fill:#0a357e;}</style>
+  </defs>
+  <rect
+     class="cls-5"
+     x="6.84"
+     y=".13"
+     width="10.98"
+     height="12.94"
+     rx="2.17"
+     ry="2.17"
+     id="rect1" />
+  <rect
+     class="cls-5"
+     x="74.16"
+     y=".13"
+     width="10.98"
+     height="13.81"
+     rx="2.17"
+     ry="2.17"
+     id="rect2" />
+  <rect
+     class="cls-6"
+     x=".12"
+     y="9.74"
+     width="92.89"
+     height="67.05"
+     id="rect3" />
+  <rect
+     class="cls-6"
+     x="25.36"
+     y="2.09"
+     width="42.2"
+     height="7.65"
+     id="rect4" />
+  <text
+     class="cls-1"
+     transform="translate(5.76 24.13)"
+     id="text4"><tspan
+       x="0"
+       y="0"
+       id="tspan4">+</tspan></text>
+  <text
+     class="cls-2"
+     transform="translate(76.6 25.48)"
+     id="text5"><tspan
+       x="0"
+       y="0"
+       id="tspan5">-</tspan></text>
+  <rect
+     class="cls-7"
+     x="10.89"
+     y="29.2"
+     width="71.96"
+     height="38.68"
+     id="rect5" />
+</svg>

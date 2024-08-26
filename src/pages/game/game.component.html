@@ -1,0 +1,7 @@
+<div>
+    <game-start></game-start>
+    <mobile-controls (outputTouchState)="setTouchState($event)"></mobile-controls>
+    <star></star>
+    <platform></platform>
+    <player [touchState]="this.touchStateDup"></player>
+</div>

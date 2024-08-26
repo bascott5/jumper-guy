@@ -1,0 +1,42 @@
+<main>
+    <div class="headerContainer">
+        <img src="logo.svg" alt="Platform Jumper">
+    </div>
+    <section>
+        @if (!lobby) {
+            <div>
+                <button class="primaryBtn" routerLink="/game">Quick Play</button>
+                <button (click)="toggleLobby()">Create Room</button>
+            </div>
+        } @else {
+            <div>
+                <button class="primaryBtn" (click)="toggleReady()">{{ this.isReady() ? "Not Ready" : "Ready" }}</button>
+                <p>http://localhost:4200/lobby/{{ this.getRoomCode() }}</p>
+            </div>
+            <div>
+                <h3>Players</h3>
+                <li>
+                    @for (player of players; track player.socketId) {
+                        <ul>
+                            <img src="" alt="">
+                            @if (player.socketId == clientPlayer.socketId) {
+                                <h6>{{ player.username }} (you)</h6>
+                            } @else {
+                                <h6>{{ player.username }}</h6>
+                            }
+                        </ul>
+                    }
+                </li>
+                <button (click)="toggleLobby()" routerLink="">Back</button>
+            </div>
+        }
+    </section>
+    <div class="bg">
+        <img src="/star.svg" alt="_">
+        <img src="/star.svg" alt="_">
+        <img src="/star.svg" alt="_">
+        <img src="/star.svg" alt="_">
+        <img src="/star.svg" alt="_">
+        <img src="/star.svg" alt="_">
+    </div>
+</main>

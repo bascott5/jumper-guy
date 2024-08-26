@@ -1,0 +1,3 @@
+<score [score]="this.getScore()"></score>
+<img #playerObj [src]="this.left ? '/leftMan.svg' : '/rightMan.svg'" alt="Player" width="200px" height="300px" (keydown)="move($event)" (keyup)="stop($event)">
+<game-over [gameOver]="!this.getLanding()" [score]="this.getScore()"></game-over>

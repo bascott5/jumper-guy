@@ -1,0 +1,27 @@
+div {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.5);
+    flex: 1 1;
+    top: 25px;
+    right: 25px;
+    width: 200px;
+    height: 300px;
+    padding: 10px 15px;
+}
+
+p {
+    font-size: medium;
+    color: white;
+}
+
+@media (max-width: 700px) {
+  div {
+    background-color: transparent;
+    font-weight: bold;
+    width: 100px;
+    height: 100px;
+    right: 20px;
+  }
+}

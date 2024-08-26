@@ -1,0 +1,9 @@
+<span [style.display]="this.gameOver ? 'block' : 'none'">
+    <div>
+        <h1>Game Over!</h1>
+        <p>Final Score</p>
+        <h2>{{ this.score }}</h2>
+        <button class="primaryBtn" (click)="this.restart()">Restart</button>
+        <button routerLink="">Go Back</button>
+    </div>
+</span>

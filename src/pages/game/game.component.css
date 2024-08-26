@@ -1,0 +1,8 @@
+div {
+    background: url("/aaa-logo.svg"), linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(143,173,195,1) 100%);
+    background-size: 100% 100%;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
